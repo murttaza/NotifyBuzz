@@ -1,0 +1,7 @@
+haptics:
+  notificationReceived:
+    DEFAULT: knock
+    MX Master 4: knock
+  notificationUrgent:
+    DEFAULT: angry_alert
+    MX Master 4: angry_alert

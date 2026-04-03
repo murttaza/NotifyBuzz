@@ -1,0 +1,71 @@
+# ==================================================================================================
+# GENERAL SETTINGS
+# ==================================================================================================
+
+# Package type. Must be plugin4 for plugins.
+type: plugin4
+
+# Name that identifies the plugin.
+name: NotifyBuzz
+
+# Plugin name that is shown to the user.
+displayName: NotifyBuzz
+
+# Short description of the plugin.
+description: Vibrates your MX Master 4 mouse when Windows notifications arrive.
+
+# Name of the plugin library file.
+pluginFileName: NotifyBuzzPlugin.dll
+
+# Plugin version.
+version: 1.0
+
+# Author of the plugin. The author can be a company or an individual developer.
+author: Murtaza
+
+# Copyright information.
+copyright: Copyright © 2026 Murtaza. All rights reserved.
+
+
+# ==================================================================================================
+# PLUGIN PROPERTIES
+# ==================================================================================================
+
+# Location of plugin files on Windows (relative to the plugin base directory).
+# This parameter is required to support Windows.
+pluginFolderWin: bin
+
+# Location of plugin files on macOS (relative to the plugin base directory).
+# This parameter is required to support Mac.
+#pluginFolderMac: bin
+
+# List of devices the plugin is optimized for.
+supportedDevices:
+    - LoupedeckCtFamily
+
+# List of plugin capabilities.
+pluginCapabilities:
+    - HasHapticMapping
+
+# Minimum Loupedeck version supported by the plugin.
+minimumLoupedeckVersion: 6.0
+
+
+# ==================================================================================================
+# LOUPEDECK MARKETPLACE SETTINGS
+# ==================================================================================================
+
+# Name of the license that the plugin is licensed under. Select the one that you prefer.
+# NOTE: GPL license is not compatible with Loupedeck Marketplace.
+license: MIT
+
+# URL of the plugin license.
+licenseUrl: https://opensource.org/licenses/MIT
+
+# URL of the support page where the users can send improvement suggestions and report bugs.
+# The URL is shown in Loupedeck Marketplace. The page can be for example a GitHub issues page.
+# NOTE: This setting is recommended when publishing the plugin in Loupedeck Marketplace.
+#supportPageUrl: https://github.com/myusername/myplugin/issues
+
+# URL of the plugin homepage. The URL is shown in Loupedeck Marketplace.
+#homePageUrl: https://github.com/myusername/myplugin

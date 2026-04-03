@@ -1,0 +1,8 @@
+events:
+  - name: notificationReceived
+    displayName: Notification Received
+    description: Fires when a Windows toast notification arrives
+
+  - name: notificationUrgent
+    displayName: Urgent Notification
+    description: Fires for high-priority or alarm notifications
